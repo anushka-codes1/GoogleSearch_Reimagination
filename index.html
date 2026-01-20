@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision-Aware Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="multicolor-logo">
+                <span class="color-blue">G</span><span class="color-red">o</span><span class="color-yellow">o</span><span class="color-green">g</span><span class="color-blue">l</span><span class="color-red">e</span><span class="color-yellow"> </span><span class="color-green">S</span><span class="color-blue">e</span><span class="color-red">a</span><span class="color-yellow">r</span><span class="color-green">c</span><span class="color-blue">h </span><span class="color-red"> </span><span class="color-yellow">R</span><span class="color-green">e</span><span class="color-blue">i</span><span class="color-red">m</span><span class="color-yellow">a</span><span class="color-green">g</span><span class="color-blue">i</span><span class="color-red">n</span><span class="color-yellow">e</span><span class="color-green">d</span>
+            </h1>
+            <p class="subtitle">Find what matters to you</p>
+        </header>
+
+        <!-- Main Search Section -->
+        <main class="search-section">
+            <!-- Search Input -->
+            <div class="search-input-wrapper">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Enter your search query..."
+                    aria-label="Search input"
+                >
+                <button id="searchBtn" class="search-btn" aria-label="Search">
+                    Search
+                </button>
+            </div>
+
+            <!-- User Profile Selection -->
+            <div class="profile-section">
+                <label for="profileSelect" class="profile-label">I am a:</label>
+                <select id="profileSelect" class="profile-select" aria-label="User profile type">
+                    <option value="casual">🟡 Casual Searcher</option>
+                    <option value="student">🔵 Student</option>
+                    <option value="shopper">🟢 Shopper</option>
+                    <option value="researcher">🔴 Researcher</option>
+                </select>
+            </div>
+
+            <!-- Optional Constraints -->
+            <fieldset class="constraints-section">
+                <legend>Optional Constraints</legend>
+                
+                <div class="constraint-group">
+                    <label for="budgetInput">Budget (if applicable):</label>
+                    <div style="display: flex; gap: 8px; align-items: center;">
+                        <select id="currencySelect" class="constraint-select" style="flex: 0 0 auto; width: 80px;" aria-label="Currency">
+                            <option value="USD">USD ($)</option>
+                            <option value="EUR">EUR (€)</option>
+                            <option value="GBP">GBP (£)</option>
+                            <option value="INR">INR (₹)</option>
+                            <option value="JPY">JPY (¥)</option>
+                            <option value="CAD">CAD (C$)</option>
+                            <option value="AUD">AUD (A$)</option>
+                            <option value="SGD">SGD (S$)</option>
+                            <option value="HKD">HKD (HK$)</option>
+                            <option value="MXN">MXN (₱)</option>
+                        </select>
+                        <input 
+                            type="number" 
+                            id="budgetInput" 
+                            class="constraint-input" 
+                            placeholder="e.g., 50"
+                            min="0"
+                            step="0.01"
+                            aria-label="Budget amount"
+                            style="flex: 1;"
+                        >
+                    </div>
+                </div>
+
+                <div class="constraint-group">
+                    <label for="readingTimeInput">Max Reading Time:</label>
+                    <select id="readingTimeInput" class="constraint-select" aria-label="Maximum reading time">
+                        <option value="">Any</option>
+                        <option value="5">5 minutes</option>
+                        <option value="15">15 minutes</option>
+                        <option value="30">30 minutes</option>
+                        <option value="60">1 hour</option>
+                    </select>
+                </div>
+
+                <div class="constraint-group">
+                    <label for="skillLevelInput">Skill Level:</label>
+                    <select id="skillLevelInput" class="constraint-select" aria-label="Skill level">
+                        <option value="">Any</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+            </fieldset>
+        </main>
+
+        <!-- Results Container -->
+        <section class="results-section">
+            <div id="resultsContainer" class="results-container">
+                <!-- Search results will be displayed here as cards -->
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
