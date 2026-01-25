@@ -1,0 +1,315 @@
+nohup: ignoring input
+
+> decision-aware-search@1.0.0 start
+> node server.js
+
+
+🚀 Decision-Aware Search API Server
+📡 Listening on http://localhost:8000
+
+📚 API Endpoints:
+   GET  /api/health              - Health check
+   GET  /api/search              - Search with query parameters
+   POST /api/search              - Search with request body
+   GET  /api/profiles            - Available profiles
+   GET  /api/metrics             - Available metrics
+
+🌐 Web Interface: http://localhost:8000
+📖 Try: http://localhost:8000?q=machine%20learning&profile=student
+
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: 'beginner' }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+✓ Loaded 8 mock results
+
+📡 POST Search Request:
+   Query: "python programming"
+   Profile: researcher
+   Constraints: { budget: true, readingTime: 30 }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed, using mock results
+
+📡 POST Search Request:
+   Query: "python programming"
+   Profile: researcher
+   Constraints: {}
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed, using mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: shopper
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: 30, skillLevel: 'beginner' }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: shopper
+   Constraints: { budget: true, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: 20, skillLevel: 'beginner' }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: shopper
+   Constraints: { budget: true, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: 20, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: shopper
+   Constraints: { budget: true, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: true, readingTime: 30, skillLevel: 'beginner' }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: false, readingTime: 20, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: shopper
+   Constraints: { budget: true, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "machine learning"
+   Profile: student
+   Constraints: { budget: true, readingTime: 30, skillLevel: 'beginner' }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "python"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "python"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Laptop for coding"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "python"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Wikipedia"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Wikipedia"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Wikipedia"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Wikipedia"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Wikipedia"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "Wikipedia"
+   Profile: casual
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+
+📡 API Search Request:
+   Query: "python"
+   Profile: student
+   Constraints: { budget: false, readingTime: null, skillLevel: null }
+⚠ BING_SEARCH_KEY not configured, will use fallback
+⚠ Bing API failed (Bing API key not configured), falling back to mock results
+Terminated
